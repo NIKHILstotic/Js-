@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  
+    
+  
+    
+  }
+  
+  html,body {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    background-color:white; 
+  
+  }
+  #main{
+    background-color:white; 
+   
+  
+  }
+  *::selection{
+    color:#ffff;
+    background-color: #000;
+  }
+  #home{
+    width:100%;
+    min-height:100vh;
+    cursor:pointer;
+    
+  }
+  #nav{
+    width:100%;
+    padding:18px 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+      
+    position:sticky;
+    top:0;
+  
+  
+  
+  
+    
+  }
+  #nav h5{
+    font-size:20px;
+    font-weight: 500;
+  
+    
+  }
+  #nav #right{
+    display: flex;
+    
+    justify-content: center;
+    gap: 40px;  
+  }
+  
+  #nav a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    font-size: 1.7vw;
+  }
+  #nav i{
+    margin-top: 5px;
+    font-size: 20px;
+    
+  }
+  #home #homemain{
+    width:100%;
+    padding: 15vw 12vw;
+  }
+  #homemain h1{
+    font-weight:400;
+    font-size:1.5vw;
+  }
+  .headings{
+    display:flex;
+    -webkit-text-stroke: 1px #000;
+    gap:30px;
+  }
+  #homemain .headings h1{
+    color: transparent;
+    
+    line-height: 1;
+    font-size: 7vw;
+    font-weight: 700;
+    letter-spacing: -5px;
+    
+  } 
+  #homemain h1{
+    font-size: 2vw;
+    font-weight: 600; 
+    letter-spacing: -.1vw;
+    
+  }
+  #homemain .headings h1:hover{
+    color:#000;
+  }
+  #homelast{ 
+       padding: 10vw 15vw;
+  }
+  #homelast p{
+    width: 84%;
+    font-size: 1.4vw;
+    font-weight: 600;
+    letter-spacing:-.08vw;
+    
+  }
+  #homelast p::selection {
+    color: #ffff;
+    background-color: #000;
+  }
+  #featured{
+  padding: 1vw 15vw;
+    
+    height: 5vw;
+  }
+  .fheading>h1{
+    line-height: 1;
+    font-size:4vw;
+    font-weight: 400;
+    
+  }
+  .fheading>h1:nth-child(2){
+    color:transparent;
+    -webkit-text-stroke: 1px #000;
+  }
+  #fimages{
+    
+  
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 100vh;
+    margin-top:5vw;
+    
+  }
+  
+  #fleft{
+    overflow: auto;
+    width: 40%;
+    height: inherit;
+    
+    
+    
+  }
+  .fleftelm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit; 
+  
+  }
+  .fleftelm h1{
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0;
+  }
+  .fleftelm h3{
+    font-size: 1.3vw;
+    font-weight: 400;
+  }
+  .fleftelm h4{
+    opacity: .5 ;
+  }
+  #fright{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 40%;
+    height:inherit;
+    
+    
+  }
+  #fright .images{
+    
+    width: 80%;
+    height: 70%;
+    background-color: red;
+    
+    
+  }
+  .btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btndiv button{
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 1vw;
+  font-weight: 500;
+    letter-spacing: -0.5px;
+    
+  }
+  #devmain{
+  width: 100%;
+  height: 50vw;
+    
+    
+  }
+  
+  
+  #dev h1{
+    
+    font-size: 3vw;
+    padding: 5vw 15vw;
+    
+    font-weight: 500;
+    color:black;
+    width: 40%;
+    letter-spacing:-0.1vw;
+    line-height: 1;
+    
+  } 
+  #dev p{
+  
+    font-size: 1.5vw;
+    font-weight:500;
+    margin-top: 3vw;
+    color:white;
+    width: 60%;
+  }
+  #slides{
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .slide{
+    width: 30%;
+  }
+  .slide .img{
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+    background-color: yellow;
+  }
+  .slide .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .slide .tag{
+    width: fit-content;
+    border-radius: 100px;
+    padding: 10px 22px;
+    background-color: #f7f7f7;
+    margin: 20px 0;
+  }
+  .slide h3{
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+  } 
+  fimages .btndiv{
+    padding: 20px 30px;
+  } 
+  
+  #pricing .container-fluid{
+    width: 100%;
+    height: 40vw;
+  
+    
+  }
+  #socialsmain{
+    
+    width:100%;
+    height:65vw;
+    margin-top: 40vw;
+    border-top-left-radius: 130px;
+  border-top-right-radius: 130px;
+    background-color:black;
+    
+  }
+  #socialsmain h1{
+    color:white;
+    font-size:1vw;
+    padding:30px 50px;
+  }
+  #socialsmain h5{
+    color:white;
+    padding:60px 60px;
+    font-weight:500;
+    font-size:10px ;
+    
+    
+  }
+  #socialsmain #line{
+    border:1px solid white;
+  }
+  
+  #abmain{
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  #aboutsec{
+    width: 80%;
+    height: 90%;
+    
+    background-color: black;
+    border-radius: 100px;
+  }
